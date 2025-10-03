@@ -30,8 +30,7 @@ body {
 
 main{
   display: flex;
-  flex-direction: row;
-  flex-grow: 1;
+  flex: 1;
   
 }
 
@@ -55,6 +54,10 @@ ul{
   
 }
 
+li {
+  margin-bottom: 16px;
+}
+
 a{
   font-size: 24px;
   color: white;
@@ -65,9 +68,7 @@ a{
 .content{
   padding: 48px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  flex-grow: 1;
   gap: 30px;
   
   
